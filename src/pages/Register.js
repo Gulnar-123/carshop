@@ -32,6 +32,7 @@ export default function Register() {
   }
   function validate() {
     var er = {}
+    var dm = ""
     if (name === "") {
       er.name = "Name is required"
     }
